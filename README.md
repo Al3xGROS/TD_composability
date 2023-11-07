@@ -83,7 +83,7 @@ Deployed Addresses on goerli:
 - cast send --private-key $PRIVATEKEY --rpc-url $GOERLIINFURARPC $EVALUATORTOKENADDRESS "ex5_checkRewardTokenBalance()"
 
 *EX 6 :*
-- DoN't Do SorRy
+- DiDn'T dO sOrRy
 
 *EX 7 :*
 - forge script script/Deployment.sol:DeploymentScript --rpc-url $GOERLIINFURARPC --broadcast -vvvv
@@ -100,4 +100,4 @@ Deployed Addresses on goerli:
 - DiDn'T dO sOrRy
 
 *EX 11 :*
-- DoN't Do SorRy
+- DiDn'T dO sOrRy
