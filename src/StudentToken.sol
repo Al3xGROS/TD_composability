@@ -37,15 +37,12 @@ contract StudentToken is ERC20, IStudentToken {
     }
 
     function createLiquidityPool() external {
-        // why is this function existing ? I d k
         factory.createPool(address(evaluatorToken), rewardTokenAddress, 3000);
     }
 
 	function SwapRewardToken(uint256 amountOut) external{
         address tokenIn = address(evaluatorToken);
         address tokenOut = rewardTokenAddress;
-
-        // uint256 amountOut = 10 ** 18 * 5;
 
         address poolAddress = factory.getPool(tokenIn, tokenOut, 500);
 
